@@ -43,61 +43,55 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 	<!--banner-->
 	<script src="js/responsiveslides.min.js"></script>
-	<script>
+	<script>  
 		$(function () {
-			$("#slider").responsiveSlides({
-				auto: false,
-				nav: true,
-				speed: 500,
-				namespace: "callbacks",
-				pager: true,
-			});
+		  $("#slider").responsiveSlides({
+			  auto: true,
+			  nav: true,
+			  speed: 500,
+			namespace: "callbacks",
+			pager: true,
+		  });
 		});
-	</script>
-	<div class="banner-bg banner-sec" style="background-color: black;">
-		<div class="container">
-			<div class="header">
-				<div class="logo">
-					<a href="index.html"><img src="images/logo.png" alt="" /></a>
-				</div>
-				<div class="top-nav">
-					<label class="mobile_menu" for="mobile_menu">
-						<span>Menu</span>
-					</label>
-					<input id="mobile_menu" type="checkbox">
-					<ul class="nav">
-						<li class="dropdown1"><a href="bicycles.html">Компьютеры</a>
-							<ul class="dropdown2">
-								<li><a href="bicycles.html">Самые сильные</a></li>
-								<li><a href="bicycles.html">Средние</a></li>
-								<li><a href="bicycles.html">Лучшие цена/качество</a></li>
-							</ul>
-						</li>
-						<li class="dropdown1"><a href="parts.html">Комплектующие</a>
-							<ul class="dropdown2">
-								<li><a href="parts.html">Видеокарты</a></li>
-								<li><a href="parts.html">Процессоры</a></li>
-								<li><a href="parts.html">Периферия</a></li>
-								<li><a href="parts.html">Мониторы</a></li>
-								<li><a href="parts.html">Корпусы</a></li>
-								<li><a href="parts.html">Носители информации</a></li>
-								<li><a href="parts.html">Мат.платы</a></li>
-							</ul>
-						</li>
-						<li class="dropdown1"><a href="accessories.html">Серверы</a>
-							<ul class="dropdown2">
-								<li><a href="accessories.html">Серверы</a></li>
-							</ul>
-						</li>
-						<li class="dropdown1"><a href="404.html">Переходники и т.п.</a>
-							<ul class="dropdown2">
-								<li><a href="404.html">Переходники</a></li>
-								<li><a href="404.html">Флешки</a></li>
-							</ul>
-						</li>
-						<a class="shop" href="cart.html"><img src="images/cart.png" alt="" /></a>
-					</ul>
-				</div>
+	  </script>
+	<div class="banner-bg banner-bg1">	
+		  <div class="container">
+				 <div class="header">
+					   <div class="logo">
+							 <a href="index.html">логотип</a>
+					   </div>							 
+					  <div class="top-nav">										 
+							<label class="mobile_menu" for="mobile_menu">
+							<span>Menu</span>
+							</label>
+							<input id="mobile_menu" type="checkbox">
+						   <ul class="nav">
+							  <li class="dropdown1"><a href="bicycles.html">Computers</a>
+								  <ul class="dropdown2">
+										<li><a href="bicycles.html">Самые сильные</a></li>
+										<li><a href="bicycles.html">Средние</a></li>
+										<li><a href="bicycles.html">Лучшие цена/качество</a></li>												
+								  </ul>
+						     
+							 <li class="dropdown1"><a href="accessories.html">Серверы</a>
+								 <ul class="dropdown2">
+										<li><a href="accessories.html">Cерверы</a></li>
+											
+											
+								  </ul>
+							 </li>               
+							 <li class="dropdown1"><a href="404.html">Переходники и т.п.</a>
+								 <ul class="dropdown2">
+										<li><a href="404.html">Переходники</a></li>
+										<li><a href="404.html">Флешки</a></li>
+								  </ul>
+							 </li>
+							  <a class="shop" href="cart.html"><img src="images/cart.png" alt=""/></a>
+						  </ul>
+					 </div>
+					 <div class="clearfix"></div>
+				 </div>
+		  </div>	 
 				<div class="clearfix"></div>
 			</div>
 		</div>
@@ -105,7 +99,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--/banner-->
 	<div class="parts">
 		<div class="container">
-			<h2>BIKE-PARTS ALL</h2>
+			<h2>Комплектующие для вашего ПК</h2>
 			<div class="bike-parts-sec">
 				<div class="bike-parts">
 					<div class="top">
@@ -117,27 +111,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<div class="bike-apparels">
 						<div class="parts1">
-							<a href="single.html">
-								<div class="part-sec">
-									<img src="images/p1.jpg" alt="" />
-									<div class="part-info">
-										<a href="#">
-											<h5>Wire Locks<span>$7.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
-									</div>
-								</div>
-							</a>
+				
 							<a href="single.html">
 								<div class="part-sec">
 									<img src="images/p3.jpg" alt="" />
 									<div class="part-info">
-										<a href="#">
-											<h5>Gloves<span>$50.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
+										
+											<a href="processory.html"><h5>Процессоры</h5><img src="/images/proc.jpg" ></a>
+										
+										
+										
 									</div>
 								</div>
 							</a>
@@ -145,11 +128,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="part-sec none1">
 									<img src="images/p2.jpg" alt="" />
 									<div class="part-info">
-										<a href="#">
-											<h5>Speed Cassette<span>$200.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
+
+										<a href = "vidokaty.html"><h5>Видеокарты</h5><img src="/images/video.jpg"></a>
 									</div>
 								</div>
 							</a>
@@ -157,27 +137,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="part-sec none1">
 									<img src="images/p4.JPG" alt="" />
 									<div class="part-info">
-										<a href="#">
-											<h5>Road Bike Pedals<span>$200.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
+											<a href = "materinka.html"><h5>Материнские платы</h5><img src="/images/materinka.jpg"></a>
+										
+										
 									</div>
 								</div>
 							</a>
 							<div class="clearfix"></div>
 						</div>
+						
 
 						<div class="parts2">
 							<a href="single.html">
 								<div class="part-sec">
 									<img src="images/p5.JPG" alt="" />
 									<div class="part-info">
-										<a href="#">
-											<h5>Rear Derailleur<span>$200.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
+										
+											<a href = "operativka.html"><h5>Оперативная память</h5><img src = "/images/operativka.jpg"></a>
+										
+										
 									</div>
 								</div>
 							</a>
@@ -186,10 +164,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<img src="images/p6.JPG" alt="" />
 									<div class="part-info">
 										<a href="#">
-											<h5>Race XC Crankset<span>$200.00</span></h5>
+											<a href = "nakop.html"><h5>Накопители</h5><img src = "/images/nakop.jpg"></a>
 										</a>
-										<a class="add-cart" href="single.html#">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
+										
 									</div>
 								</div>
 							</a>
@@ -197,26 +174,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="part-sec none1">
 									<img src="images/p7.JPG" alt="" />
 									<div class="part-info">
-										<a href="#">
-											<h5>Aero Handlebars<span>$200.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
+										
+											<a href = "bp.html"><h5>Блоки питания</h5><img src = "/images/bp.jpg" ></a>
+										
+										
 									</div>
 								</div>
 							</a>
-							<a href="single.html">
-								<div class="part-sec none1">
-									<img src="images/p8.jpg" alt="" />
-									<div class="part-info">
-										<a href="#">
-											<h5>Grip Tires<span>$200.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
-									</div>
-								</div>
-							</a>
+					
 							<div class="clearfix"></div>
 						</div>
 
@@ -225,11 +190,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="part-sec">
 									<img src="images/p9.jpg" alt="" />
 									<div class="part-info">
-										<a href="#">
-											<h5>Bike Wheelset<span>$200.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
+										
+											<a href = "cold.html"><h5>Охлаждение ПК</h5><img src = "/images/cold.png"></a>
+										
 									</div>
 								</div>
 							</a>
@@ -238,10 +201,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<img src="images/p10.jpg" alt="" />
 									<div class="part-info">
 										<a href="#">
-											<h5>MTB Chainring<span>$200.00</span></h5>
+											<a href = "corpus.html"><h5>Корпуса</h5><img src = "/images/corpus.jpg" style="width: 150px;"></a>
 										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
+									
 									</div>
 								</div>
 							</a>
@@ -249,194 +211,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="part-sec none1">
 									<img src="images/p11.jpg" alt="" />
 									<div class="part-info">
-										<a href="#">
-											<h5>Suspensions<span>$200.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
+										
+											<a href = "rass.html"><h5>Устройства расширения и апгрейд</h5><img src = "/images/rass.jpg"></a>
+										
+										
 									</div>
 								</div>
 							</a>
-							<a href="single.html">
-								<div class="part-sec none1">
-									<img src="images/p12.jpg" alt="" />
-									<div class="part-info">
-										<a href="#">
-											<h5>Helmets<span>$200.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
-									</div>
-								</div>
-							</a>
-							<div class="clearfix"></div>
-						</div>
-
-						<div class="parts4" id="parts_parts4">
-							<a href="single.html">
-								<div class="part-sec bottom-line">
-									<img src="images/p13.jpg" alt="" />
-									<div class="part-info">
-										<a href="#">
-											<h5>Middle Frames<span>$200.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
-									</div>
-								</div>
-							</a>
-							<a href="single.html">
-								<div class="part-sec bottom-line">
-									<img src="images/p14.jpg" alt="" />
-									<div class="part-info">
-										<a href="#">
-											<h5>Brooks Saddle<span>$200.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
-									</div>
-								</div>
-							</a>
-							<a href="single.html">
-								<div class="part-sec bottom-line none1">
-									<img src="images/p15.jpg" alt="" />
-									<div class="part-info">
-										<a href="#">
-											<h5>Motocross braces<span>$200.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
-									</div>
-								</div>
-							</a>
-							<a href="single.html">
-								<div class="part-sec none1">
-									<img src="images/p16.JPG" alt="" />
-									<div class="part-info">
-										<a href="#">
-											<h5>Bike Pumps<span>$200.00</span></h5>
-										</a>
-										<a class="add-cart" href="single.html">Quick View</a>
-										<a class="qck" href="single.html">BUY NOW</a>
-									</div>
-								</div>
-							</a>
+					
 							<div class="clearfix"></div>
 						</div>
 
 					</div>
 				</div>
-				<div class="rsidebar span_1_of_left">
-					<section class="sky-form">
-						<div class="product_right">
-							<h3 class="m_2">Categories</h3>
-							<select class="dropdown" tabindex="10" data-settings='{"wrapperClass":"metro"}'>
-								<option value="0">Frames</option>
-								<option value="1">Back Packs</option>
-								<option value="2">Frame Bags</option>
-								<option value="3">Panniers </option>
-								<option value="4">Saddle Bags</option>
-							</select>
-							<select class="dropdown" tabindex="50" data-settings='{"wrapperClass":"metro"}'>
-								<option value="1">Body Armour</option>
-								<option value="2">Sub Category1</option>
-								<option value="3">Sub Category2</option>
-								<option value="4">Sub Category3</option>
-							</select>
-							<select class="dropdown" tabindex="8" data-settings='{"wrapperClass":"metro"}'>
-								<option value="1">Tools</option>
-								<option value="2">Sub Category1</option>
-								<option value="3">Sub Category2</option>
-								<option value="4">Sub Category3</option>
-							</select>
-							<select class="dropdown" tabindex="8" data-settings='{"wrapperClass":"metro"}'>
-								<option value="1">Services</option>
-								<option value="2">Sub Category1</option>
-								<option value="3">Sub Category2</option>
-								<option value="4">Sub Category3</option>
-							</select>
-							<select class="dropdown" tabindex="8" data-settings='{"wrapperClass":"metro"}'>
-								<option value="1">Materials</option>
-								<option value="2">Sub Category1</option>
-								<option value="3">Sub Category2</option>
-								<option value="4">Sub Category3</option>
-							</select>
-						</div>
-
-						<h4>components</h4>
-						<div class="row row1 scroll-pane">
-							<div class="col col-4">
-								<label class="checkbox"><input type="checkbox" name="checkbox"
-										checked=""><i></i>Frames(20)</label>
-							</div>
-							<div class="col col-4">
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Foks, Suspensions
-									(48)</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Breaks and Pedals
-									(45)</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Tires,Tubes,Wheels
-									(45)</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Serevice
-									Parts(12)</label>
-							</div>
-						</div>
-						<h4>Apparels</h4>
-						<div class="row row1 scroll-pane">
-							<div class="col col-4">
-								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>Locks
-									(20)</label>
-							</div>
-							<div class="col col-4">
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Speed Cassette
-									(5)</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Bike Pedals
-									(7)</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Handels
-									(2)</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Other (50)</label>
-							</div>
-						</div>
-					</section>
-					<section class="sky-form">
-						<h4>Brand</h4>
-						<div class="row row1 scroll-pane">
-							<div class="col col-4">
-								<label class="checkbox"><input type="checkbox" name="checkbox"
-										checked=""><i></i>Lezyne</label>
-							</div>
-							<div class="col col-4">
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Marzocchi</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>EBC</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Oakley</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Jagwire</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Yeti
-									Cycles</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Vee Rubber</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>Zumba</label>
-							</div>
-						</div>
-					</section>
-					<section class="sky-form">
-						<h4>Price</h4>
-						<div class="row row1 scroll-pane">
-							<div class="col col-4">
-								<label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i></i>$50.00
-									and Under (30)</label>
-							</div>
-							<div class="col col-4">
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>$100.00 and Under
-									(30)</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>$200.00 and Under
-									(30)</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>$300.00 and Under
-									(30)</label>
-								<label class="checkbox"><input type="checkbox" name="checkbox"><i></i>$400.00 and Under
-									(30)</label>
-							</div>
-						</div>
-					</section>
-				</div>
-				<div class="clearfix"></div>
+				
 			</div>
 		</div>
 	</div>
@@ -447,12 +235,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<a href="index.html"><img src="images/logo2.png" alt="" /></a>
 			</div>
 			<div class="ftr-menu">
-				<ul>
-					<li><a href="bicycles.html">BICYCLES</a></li>
-					<li><a href="parts.html">PARTS</a></li>
-					<li><a href="accessories.html">ACCESSORIES</a></li>
-					<li><a href="404.html">EXTRAS</a></li>
-				</ul>
+	=
+				
 			</div>
 			<div class="clearfix"></div>
 		</div>
