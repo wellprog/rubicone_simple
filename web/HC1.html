@@ -33,9 +33,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <body>
 <!--banner-->
 <script src="js/responsiveslides.min.js"></script>
-<script>  
-    $(function () {
-      $("#slider").responsiveSlides({
+	<script>  
+    	$(function () {
+      	$("#slider").responsiveSlides({
       	auto: false,
       	nav: true,
       	speed: 500,
@@ -43,79 +43,78 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         pager: true,
       });
     });
-  </script>
-	<div class="banner-bg banner-sec" style="background-color: black;>	
-	  <div class="container">
-			 <div class="header" >
-			       <div class="logo" style=">
-						 <a href="index.html"><img src="images/logo.png" alt=""/></a>
-				   </div>							 
-				  <div class="top-nav">										 
-						<label class="mobile_menu" for="mobile_menu">
+    </script>
+	<div class="banner-bg banner-sec" style="background-color: black;">
+		<div class="container">
+			<div class="header">
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" alt="" /></a>
+				</div>
+				<div class="top-nav">
+					<label class="mobile_menu" for="mobile_menu">
 						<span>Menu</span>
-						</label>
-						<input id="mobile_menu" type="checkbox">
-					   <ul class="nav">
-						  <li class="dropdown1"><a href="bicycles.html">BICYCLES</a>
-							  <ul class="dropdown2">
-									<li><a href="bicycles.html">FIXED / SINGLE SPEED</a></li>
-									<li><a href="bicycles.html">CITY BIKES</a></li>
-									<li><a href="bicycles.html">PREMIMUN SERIES</a></li>												
-							  </ul>
-						  </li>
-						  <li class="dropdown1"><a href="parts.html">PARTS</a>
-							 <ul class="dropdown2">
-									<li><a href="parts.html">CHAINS</a></li>
-									<li><a href="parts.html">TUBES</a></li>
-									<li><a href="parts.html">TIRES</a></li>
-									<li><a href="parts.html">DISC BREAKS</a></li>
-							  </ul>
-						 </li>      
-						 <li class="dropdown1"><a href="accessories.html">ACCESSORIES</a>
-							 <ul class="dropdown2">
-									<li><a href="accessories.html">LOCKS</a></li>
-										<li><a href="accessories.html">HELMETS</a></li>
-										<li><a href="accessories.html">ARM COVERS</a></li>
-										<li><a href="accessories.html">JERSEYS</a></li>
-							  </ul>
-						 </li>               
-						 <li class="dropdown1"><a href="404.html">EXTRAS</a>
-							 <ul class="dropdown2">
-									<li><a href="404.html">CLASSIC BELL</a></li>
-									<li><a href="404.html">BOTTLE CAGE</a></li>
-									<li><a href="404.html">TRUCK GRIP</a></li>
-							  </ul>
-						 </li>
-						  <a class="shop" href="cart.html"><img src="images/cart.png" alt=""/></a>
-					  </ul>
-				 </div>
-				 <div class="clearfix"></div>
-			 </div>
-	  </div> 				 
-</div>
-<!--/banner-->
-<div class="product">
-	 <div class="container">
-		 <div class="ctnt-bar cntnt">
-			 <div class="content-bar">
-				 <div class="single-page">
-					 <div class="product-head">
-						<a href="index.html">Home</a> <span>::</span>	
-						</div>
-					 <!--Include the Etalage files-->
-						<link rel="stylesheet" href="css/etalage.css">
-						<script src="js/jquery.etalage.min.js"></script>
-				<script>
-			jQuery(document).ready(function($){
+					</label>
+					<input id="mobile_menu" type="checkbox">
+					<ul class="nav">
+						<li class="dropdown1"><a href="bicycles.html">Компьютеры</a>
+							<ul class="dropdown2">
+								<li><a href="bicycles.html">Самые сильные</a></li>
+								<li><a href="bicycles.html">Средние</a></li>
+								<li><a href="bicycles.html">Лучшие цена/качество</a></li>
+							</ul>
+						</li>
+						<li class="dropdown1"><a href="parts.html">Комплектующие</a>
+							<ul class="dropdown2">
+								<li><a href="parts.html">Видеокарты</a></li>
+								<li><a href="parts.html">Процессоры</a></li>
+								<li><a href="parts.html">Периферия</a></li>
+								<li><a href="parts.html">Мониторы</a></li>
+								<li><a href="parts.html">Корпусы</a></li>
+								<li><a href="parts.html">Носители информации</a></li>
+								<li><a href="parts.html">Мат.платы</a></li>
+							</ul>
+						</li>
+						<li class="dropdown1"><a href="accessories.html">Серверы</a>
+							<ul class="dropdown2">
+								<li><a href="accessories.html">Серверы</a></li>
+							</ul>
+						</li>
+						<li class="dropdown1"><a href="404.html">Переходники и т.п.</a>
+							<ul class="dropdown2">
+								<li><a href="404.html">Переходники</a></li>
+								<li><a href="404.html">Флешки</a></li>
+							</ul>
+						</li>
+						<a class="shop" href="cart.html"><img src="images/cart.png" alt="" /></a>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--/banner-->
+	<div class="product">
+	 	<div class="container">
+		 	<div class="ctnt-bar cntnt">
+			 	<div class="content-bar">
+				 	<div class="single-page">
+					 	<div class="product-head">
+							<a href="index.html">Home</a> <span>::</span>	
+							</div>
+					 	<!--Include the Etalage files-->
+							<link rel="stylesheet" href="css/etalage.css">
+							<script src="js/jquery.etalage.min.js"></script>
+					<script>
+					jQuery(document).ready(function($){
 
-				$('#etalage').etalage({
-					thumb_image_width: 400,
-					thumb_image_height: 400,
-					source_image_width: 800,
-					source_image_height: 1000,
-					show_hint: true,
-					click_callback: function(image_anchor, instance_id){
-						alert('Callback example:\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
+					$('#etalage').etalage({
+						thumb_image_width: 400,
+						thumb_image_height: 400,
+						source_image_width: 800,
+						source_image_height: 1000,
+						show_hint: true,
+						click_callback: function(image_anchor, instance_id){
+							alert('Callback example:\nYou clicked on an image with the anchor: "'+image_anchor+'"\n(in Etalage instance: "'+instance_id+'")');
 					}
 				});
 
@@ -127,7 +126,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						  <ul id="etalage">
 							<li>
 								<a href="optionallink.html">
-									<img class="etalage_thumb_image" src="images/HC1.jpgg" class="img-responsive" />
+									<img class="etalage_thumb_image" src="images/HC1.jpg" class="img-responsive" />
 									<img class="etalage_source_image" src="images/HC1.jpg" class="img-responsive" title="" />
 								</a>
 							</li>
